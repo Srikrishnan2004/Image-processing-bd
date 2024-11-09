@@ -77,6 +77,14 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
 ]
 
+CORS_ALLOWED_ORIGINS=[
+    "http://localhost:3000",
+    "https://fusion-framework.netlify.app"
+]
+
+# Optionally, allow credentials
+CORS_ALLOW_CREDENTIALS = True
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
