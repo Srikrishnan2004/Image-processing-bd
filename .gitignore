@@ -5,3 +5,5 @@ __pycache__/
 db.sqlite3
 imagebd/
 Lib/
+# Local Netlify folder
+.netlify
