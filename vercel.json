@@ -4,7 +4,7 @@
       "src": "imageprocessing/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "15mb",
+        "maxLambdaSize": 15,
         "runtime": "python3.13.0"
       }
     }
@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "imageprocessing/wsgi.py",
+      "dest": "imageprocessing/wsgi.py"
     }
   ]
 }
